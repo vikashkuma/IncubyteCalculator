@@ -15,3 +15,7 @@ test('should return the sum for two numbers', () => {
 test('should return the sum for an unknown amount of numbers', () => {
     expect(add("1,2,3")).toBe(6);
 });
+
+test('should return the sum for multiple numbers', () => {
+    expect(add("1,2,3,4,5")).toBe(15);
+});
