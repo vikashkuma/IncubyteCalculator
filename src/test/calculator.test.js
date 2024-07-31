@@ -24,7 +24,7 @@ test('should handle custom delimiters', () => {
     expect(add("//;\n1;2")).toBe(3);
     expect(add("//|\n1|2|3")).toBe(6);
     expect(add("//-\n1-2-3")).toBe(6);
-    expect(add("//[***]\n1***2***3")).toBe(6);  // Test for multi-character delimiter
+    expect(add("//[***]\n1***2***3")).toBe(6);
 });
 
 test('should throw an error for negative numbers', () => {
